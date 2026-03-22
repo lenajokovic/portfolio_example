@@ -1,0 +1,35 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'My Portfolio'
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Your Name"
+    Content: "Software engineering student"
+
+  socialIcons:
+    - name: github
+      title: View my Github account
+      url: "https://github.com/proton-org-rs"
+    - name: linkedin
+      title: View my LinkedIn account
+      url: "https://www.linkedin.com/company/proton-etf"
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+    - identifier: projects
+      name: Projects
+      url: /projects/
+    - identifier: contact
+      name: Contact
+      url: /contact/
+
