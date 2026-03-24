@@ -4,9 +4,15 @@ title: 'My Portfolio'
 theme: "PaperMod"
 
 params:
-  homeInfoParams:
-    Title: "Your Name"
-    Content: "Software engineering student"
+  
+  profileMode:
+    enabled: true
+    title: "Your Name"
+    subtitle: "Software engineering student"
+    imageUrl: "images/profile.png"
+    imageTitle: "profile"
+    imageWidth: 150
+    imageHeight: 150
 
   socialIcons:
     - name: github
